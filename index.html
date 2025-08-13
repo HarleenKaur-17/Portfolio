@@ -1,110 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harleen Kaur - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <h1>Harleen Kaur</h1>
-        <p>Software Engineer</p>
-<div class="container">
-    <!-- starting nav bar-->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</div>
-    </header>
-
-        <!--About Section -->
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About Me</h2>
-        <p class="para">
-         Passionate about Learning
-        </p>
-      </div>
-    </section>
-
-        <!-- Skills Section -->
-    <section id="skills" class="section">
-      <div class="container">
-        <h2>Skills</h2>
-    
-    <div class="skills-category">
-      <h3>Languages</h3>
-      <ul>
-        <li>C</li>
-        <li>C++</li>
-        <li>JavaScript</li>
-      </ul>
-
-    </div>
-
-    <!-- Design Tools Section -->
-    <div class="skills-category">
-      <h3>Design Tools</h3>
-      <ul>
-        <li>Figma</li>
-        <li>Canva</li>
-      </ul>
-    </div>
-
-    <!-- Frameworks Section -->
-    <div class="skills-category">
-      <h3>Technologies/Frameworks</h3>
-      <ul>
-        <li>React</li>
-        <li>Tailwind css</li>
-        <li>Matlab</li>
-        <li>Node.js</li>
-      </ul>
-    </div>
-
-    </section>
-
-    <!--Project Section-->
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>Projects</h2>
-        <div class="project">
-          <h3>Project One: AI Safety Route Navigation</h3>
-          <p class="para">I with a team of 4 created a safety algoritm that tells safest and shortest route in my college campus.</p>
-          <a href="#">View Project</a>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="intro">
+          <h1>Harleen Kaur</h1>
+          <p class="title">Software Engineer | Problem Solver | Tech Enthusiast</p>
+          <a href="#contact" class="cta-button">Let’s Connect</a>
         </div>
-        <div class="project">
-          <h3>Project Two: Disease detection through eye scanning</h3>
-          <p class="para">Spreadheaded a team in developing a disease detection system using using eye scans, achieveing accuracy upto 80.2% in identifying diabetic retinopathy , glaucoma, and cataract.</p>
-          <a href="#">View Project</a>
+        <div class="intro-image">
+          <img src="photo.jpg" alt="Harleen Kaur" />
         </div>
       </div>
-    </section>
-
-        <!-- Contact Section -->
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Contact</h2>
-        <p class="para">If you'd like to collaborate or just say hi, feel free to reach out!</p>
+      <nav class="navbar">
         <ul>
-          <li>Email: itsharleen17@gmail.com</li>
-          <li>LinkedIn: <a href="#">LinkedIn Profile</a></li>
-          <li>GitHub: <a href="#">GitHub Profile</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
-    </section>
+      </nav>
+    </div>
+  </header>
 
-        <!-- Footer Section -->
-    <footer>
-      <div class="container">
-        <p>&copy; 2025 Harleen Kaur</p>
+  <section id="about" class="section">
+    <div class="container about-section">
+      <h2>About Me</h2>
+      <p class="para">
+        I'm passionate about learning, solving real-world problems, and building scalable, user-centric solutions.
+        I thrive in collaborative environments and continuously seek opportunities to grow and innovate in the field of software engineering.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Design Tools</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Technologies</h3>
+          <ul>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>MATLAB</li>
+            <li>Node.js</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Other Tools</h3>
+          <ul>
+            <li>Github</li>
+            <li>Postman</li>
+            <li>VS code</li>
+          </ul>
+        </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>AI Safety Route Navigation</h3>
+          <p>Developed an intelligent algorithm to calculate the safest and shortest path around campus.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Disease Detection via Eye Scanning</h3>
+          <p>Created a system detecting diabetic retinopathy, glaucoma, and cataracts with over 80% accuracy.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+  <div class="container">
+    <h2>Contact</h2>
+    <p class="para">Hi! fill this form to connect.</p>
+
+    <!-- Added contact info -->
+    <div class="contact-info" style="margin-bottom: 20px; font-size: 1.1rem;">
+      <p>Email: <a href="mailto:itsharleen17@gmail.com">mail here!</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/harleen-kaur-10281b231">linkedin-profile</a></p>
+    </div>
+
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Your name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Your email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+
+      <button type="button">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Harleen Kaur.</p>
+    </div>
+  </footer>
+</body>
 </html>
