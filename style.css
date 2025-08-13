@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+background: #b0a8b9;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #332c2c;
+}
+
+.header {
+  background: #ff8066;
+  color: white;
+  padding: 20px 0;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.header p {
+  text-align: center;
+  font-style: italic;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+/* Section Styles */
+.section {
+  padding: 50px 0;
+  /*background-color: #892284;*/
+}
+
+h3 {
+  color: #000000;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project a {
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+.project a:hover {
+  text-decoration: none;
+}
+
+.para{
+    color: white;
+}
+
+/* Skill Category */
+#skills{
+    display: flex;
+  
+}
+.skills-category {
+  margin-bottom: 30px;
+}
+
+.skills-category h3 {
+  font-size: 1.6rem;
+  color: #2d3e50;
+  margin-bottom: 1rem;
+}
+
+/* Skill List */
+.skills-category ul {
+list-style-type: none;
+ 
+}
+
+.skills-category ul li {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: white;
+}
+
+
+/* Contact Section */
+ul li a {
+  color: #4CAF50;
+}
+
+ul li a:hover {
+  text-decoration: none;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .section {
+    padding: 30px 0;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
