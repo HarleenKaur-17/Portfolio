@@ -1,2 +1,2 @@
 # Portfolio
-A simple portfolio
+A simple responsive portfolio
